@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="E:/Santu/JAR&apos;S/bson-2.3.jar"/>
+	<classpathentry kind="lib" path="E:/Santu/JAR&apos;S/client-combined-3.141.59.jar"/>
+	<classpathentry kind="lib" path="E:/Santu/JAR&apos;S/client-combined-3.141.59-sources.jar"/>
+	<classpathentry kind="lib" path="E:/Santu/JAR&apos;S/commons-io-2.6.jar"/>
+	<classpathentry kind="lib" path="E:/Santu/JAR&apos;S/extentreports-2.41.2.jar"/>
+	<classpathentry kind="lib" path="E:/Santu/JAR&apos;S/extentreports-4.0.9.jar"/>
+	<classpathentry kind="lib" path="E:/Santu/JAR&apos;S/freemarker-2.3.29.jar" sourcepath="screenshots"/>
+	<classpathentry kind="lib" path="E:/Santu/JAR&apos;S/jcommander-1.48.jar"/>
+	<classpathentry kind="lib" path="E:/Santu/JAR&apos;S/log4j-core-2.12.1.jar"/>
+	<classpathentry kind="lib" path="E:/Santu/JAR&apos;S/mango-1.18.jar"/>
+	<classpathentry kind="lib" path="E:/Santu/JAR&apos;S/ooxml-schemas-1.4.jar"/>
+	<classpathentry kind="lib" path="E:/Santu/JAR&apos;S/poi-4.1.0.jar"/>
+	<classpathentry kind="lib" path="E:/Santu/JAR&apos;S/poi-ooxml-4.1.0.jar"/>
+	<classpathentry kind="lib" path="E:/Santu/JAR&apos;S/poi-ooxml-schemas-4.1.0.jar"/>
+	<classpathentry kind="lib" path="E:/Santu/JAR&apos;S/poi-scratchpad-4.1.0.jar"/>
+	<classpathentry kind="lib" path="E:/Santu/JAR&apos;S/testng-7.0.0.jar"/>
+	<classpathentry kind="lib" path="E:/Santu/JAR&apos;S/libs/byte-buddy-1.8.15.jar"/>
+	<classpathentry kind="lib" path="E:/Santu/JAR&apos;S/libs/commons-exec-1.3.jar"/>
+	<classpathentry kind="lib" path="E:/Santu/JAR&apos;S/libs/guava-25.0-jre.jar"/>
+	<classpathentry kind="lib" path="E:/Santu/JAR&apos;S/libs/okhttp-3.11.0.jar"/>
+	<classpathentry kind="lib" path="E:/Santu/JAR&apos;S/libs/okio-1.14.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
