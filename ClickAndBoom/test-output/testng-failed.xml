@@ -3,14 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Package.ClickAndBoom">
+      <class name="Package.ClickAndBoom_Administration">
         <methods>
           <include name="getResult"/>
-          <include name="SkytracPageTest"/>
           <include name="endtest"/>
+          <include name="GeofencePageTest"/>
           <include name="startReport"/>
         </methods>
-      </class> <!-- Package.ClickAndBoom -->
+      </class> <!-- Package.ClickAndBoom_Administration -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

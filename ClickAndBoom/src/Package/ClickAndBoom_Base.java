@@ -46,7 +46,7 @@ public class ClickAndBoom_Base {
 	public void startReport(){
 
 		//extent = new ExtentReports (System.getProperty("user.dir") +"/test-output/CABExtentReport.html", true);
-		extent = new ExtentReports ("ClickAndBoom.html");
+		extent = new ExtentReports ("AdninastartionPage.html");
 		extent
 		.addSystemInfo("Host Name", "RCAS")
 		.addSystemInfo("Environment", "Automation Testing")

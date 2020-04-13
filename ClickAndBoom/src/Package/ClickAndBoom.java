@@ -36,7 +36,7 @@ public class ClickAndBoom extends ClickAndBoom_Base{
 	
 
 	@Test(priority=1)
-	public void LogInPageTest(){
+	public void LogInPageTest() throws Exception{
 
 		logger = extent.startTest("LogInPageTest");
 		System.setProperty("webdriver.chrome.driver", driverPath);
