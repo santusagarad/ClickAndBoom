@@ -5,19 +5,10 @@
     <classes>
       <class name="Package.ClickAndBoom">
         <methods>
-          <include name="LoadDataPageTest"/>
-          <include name="SkytracPageTest"/>
-          <include name="HomePageTest"/>
-          <include name="LogInPageTest"/>
-          <include name="ReloadLink"/>
           <include name="getResult"/>
+          <include name="SkytracPageTest"/>
           <include name="endtest"/>
-          <include name="ReportsPageTest"/>
-          <include name="DutyHoursPageTest"/>
           <include name="startReport"/>
-          <include name="AdministraionPageTest"/>
-          <include name="HardwaremngntPageTest"/>
-          <include name="SkywebPageTest"/>
         </methods>
       </class> <!-- Package.ClickAndBoom -->
     </classes>
