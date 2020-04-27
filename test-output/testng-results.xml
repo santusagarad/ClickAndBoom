@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+<testng-results skipped="0" failed="0" ignored="0" total="12" passed="12">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="87703" started-at="2020-04-14T13:12:45 IST" finished-at="2020-04-14T13:14:13 IST">
+  <suite name="Default suite" duration-ms="128204" started-at="2020-04-27T13:17:53 IST" finished-at="2020-04-27T13:20:01 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="87703" started-at="2020-04-14T13:12:45 IST" finished-at="2020-04-14T13:14:13 IST">
+    <test name="Default test" duration-ms="128204" started-at="2020-04-27T13:17:53 IST" finished-at="2020-04-27T13:20:01 IST">
       <class name="Package.ClickAndBoom_Administration">
-        <test-method status="PASS" signature="startReport()[pri:0, instance:Package.ClickAndBoom_Administration@6ddf90b0]" name="startReport" is-config="true" duration-ms="185" started-at="2020-04-14T13:12:45 IST" finished-at="2020-04-14T13:12:45 IST">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:Package.ClickAndBoom_Administration@6ddf90b0]" name="startReport" is-config="true" duration-ms="832" started-at="2020-04-27T13:17:53 IST" finished-at="2020-04-27T13:17:54 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startReport -->
-        <test-method status="PASS" signature="LogInPageTest()[pri:1, instance:Package.ClickAndBoom_Administration@6ddf90b0]" name="LogInPageTest" duration-ms="38040" started-at="2020-04-14T13:12:45 IST" finished-at="2020-04-14T13:13:23 IST">
+        <test-method status="PASS" signature="LogInPageTest()[pri:1, instance:Package.ClickAndBoom_Administration@6ddf90b0]" name="LogInPageTest" duration-ms="53294" started-at="2020-04-27T13:17:54 IST" finished-at="2020-04-27T13:18:47 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LogInPageTest -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Package.ClickAndBoom_Administration@6ddf90b0]" name="getResult" is-config="true" duration-ms="504" started-at="2020-04-14T13:13:23 IST" finished-at="2020-04-14T13:13:24 IST">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Package.ClickAndBoom_Administration@6ddf90b0]" name="getResult" is-config="true" duration-ms="607" started-at="2020-04-27T13:18:47 IST" finished-at="2020-04-27T13:18:48 IST">
           <params>
             <param index="0">
               <value>
@@ -26,11 +26,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="GeofencePageTest()[pri:2, instance:Package.ClickAndBoom_Administration@6ddf90b0]" name="GeofencePageTest" duration-ms="7352" started-at="2020-04-14T13:13:24 IST" finished-at="2020-04-14T13:13:31 IST">
+        <test-method status="PASS" signature="GeofencePageTest()[pri:2, instance:Package.ClickAndBoom_Administration@6ddf90b0]" name="GeofencePageTest" duration-ms="5156" started-at="2020-04-27T13:18:48 IST" finished-at="2020-04-27T13:18:53 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GeofencePageTest -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Package.ClickAndBoom_Administration@6ddf90b0]" name="getResult" is-config="true" duration-ms="389" started-at="2020-04-14T13:13:31 IST" finished-at="2020-04-14T13:13:31 IST">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Package.ClickAndBoom_Administration@6ddf90b0]" name="getResult" is-config="true" duration-ms="375" started-at="2020-04-27T13:18:53 IST" finished-at="2020-04-27T13:18:53 IST">
           <params>
             <param index="0">
               <value>
@@ -41,11 +41,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="HardwareProfilePageTest()[pri:3, instance:Package.ClickAndBoom_Administration@6ddf90b0]" name="HardwareProfilePageTest" duration-ms="6102" started-at="2020-04-14T13:13:31 IST" finished-at="2020-04-14T13:13:37 IST">
+        <test-method status="PASS" signature="HardwareProfilePageTest()[pri:3, instance:Package.ClickAndBoom_Administration@6ddf90b0]" name="HardwareProfilePageTest" duration-ms="5996" started-at="2020-04-27T13:18:53 IST" finished-at="2020-04-27T13:18:59 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HardwareProfilePageTest -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Package.ClickAndBoom_Administration@6ddf90b0]" name="getResult" is-config="true" duration-ms="402" started-at="2020-04-14T13:13:37 IST" finished-at="2020-04-14T13:13:38 IST">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Package.ClickAndBoom_Administration@6ddf90b0]" name="getResult" is-config="true" duration-ms="407" started-at="2020-04-27T13:18:59 IST" finished-at="2020-04-27T13:19:00 IST">
           <params>
             <param index="0">
               <value>
@@ -56,11 +56,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="DVITextMessagesPageTest()[pri:4, instance:Package.ClickAndBoom_Administration@6ddf90b0]" name="DVITextMessagesPageTest" duration-ms="6235" started-at="2020-04-14T13:13:38 IST" finished-at="2020-04-14T13:13:44 IST">
+        <test-method status="PASS" signature="DVITextMessagesPageTest()[pri:4, instance:Package.ClickAndBoom_Administration@6ddf90b0]" name="DVITextMessagesPageTest" duration-ms="5987" started-at="2020-04-27T13:19:00 IST" finished-at="2020-04-27T13:19:06 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DVITextMessagesPageTest -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Package.ClickAndBoom_Administration@6ddf90b0]" name="getResult" is-config="true" duration-ms="370" started-at="2020-04-14T13:13:44 IST" finished-at="2020-04-14T13:13:45 IST">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Package.ClickAndBoom_Administration@6ddf90b0]" name="getResult" is-config="true" duration-ms="384" started-at="2020-04-27T13:19:06 IST" finished-at="2020-04-27T13:19:06 IST">
           <params>
             <param index="0">
               <value>
@@ -71,11 +71,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="DVIPhonenumbersPageTest()[pri:5, instance:Package.ClickAndBoom_Administration@6ddf90b0]" name="DVIPhonenumbersPageTest" duration-ms="6167" started-at="2020-04-14T13:13:45 IST" finished-at="2020-04-14T13:13:51 IST">
+        <test-method status="PASS" signature="DVIPhonenumbersPageTest()[pri:5, instance:Package.ClickAndBoom_Administration@6ddf90b0]" name="DVIPhonenumbersPageTest" duration-ms="7802" started-at="2020-04-27T13:19:06 IST" finished-at="2020-04-27T13:19:14 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DVIPhonenumbersPageTest -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Package.ClickAndBoom_Administration@6ddf90b0]" name="getResult" is-config="true" duration-ms="374" started-at="2020-04-14T13:13:51 IST" finished-at="2020-04-14T13:13:51 IST">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Package.ClickAndBoom_Administration@6ddf90b0]" name="getResult" is-config="true" duration-ms="360" started-at="2020-04-27T13:19:14 IST" finished-at="2020-04-27T13:19:14 IST">
           <params>
             <param index="0">
               <value>
@@ -86,11 +86,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="OverdueNotificationPageTest()[pri:6, instance:Package.ClickAndBoom_Administration@6ddf90b0]" name="OverdueNotificationPageTest" duration-ms="6162" started-at="2020-04-14T13:13:51 IST" finished-at="2020-04-14T13:13:57 IST">
+        <test-method status="PASS" signature="OverdueNotificationPageTest()[pri:6, instance:Package.ClickAndBoom_Administration@6ddf90b0]" name="OverdueNotificationPageTest" duration-ms="6095" started-at="2020-04-27T13:19:14 IST" finished-at="2020-04-27T13:19:20 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OverdueNotificationPageTest -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Package.ClickAndBoom_Administration@6ddf90b0]" name="getResult" is-config="true" duration-ms="425" started-at="2020-04-14T13:13:57 IST" finished-at="2020-04-14T13:13:58 IST">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Package.ClickAndBoom_Administration@6ddf90b0]" name="getResult" is-config="true" duration-ms="476" started-at="2020-04-27T13:19:20 IST" finished-at="2020-04-27T13:19:21 IST">
           <params>
             <param index="0">
               <value>
@@ -101,11 +101,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="ReportingRegionPageTest()[pri:7, instance:Package.ClickAndBoom_Administration@6ddf90b0]" name="ReportingRegionPageTest" duration-ms="6399" started-at="2020-04-14T13:13:58 IST" finished-at="2020-04-14T13:14:04 IST">
+        <test-method status="PASS" signature="ReportingRegionPageTest()[pri:7, instance:Package.ClickAndBoom_Administration@6ddf90b0]" name="ReportingRegionPageTest" duration-ms="6124" started-at="2020-04-27T13:19:21 IST" finished-at="2020-04-27T13:19:27 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ReportingRegionPageTest -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Package.ClickAndBoom_Administration@6ddf90b0]" name="getResult" is-config="true" duration-ms="403" started-at="2020-04-14T13:14:04 IST" finished-at="2020-04-14T13:14:04 IST">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Package.ClickAndBoom_Administration@6ddf90b0]" name="getResult" is-config="true" duration-ms="399" started-at="2020-04-27T13:19:27 IST" finished-at="2020-04-27T13:19:27 IST">
           <params>
             <param index="0">
               <value>
@@ -116,11 +116,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="SecuritySettingsPageTest()[pri:8, instance:Package.ClickAndBoom_Administration@6ddf90b0]" name="SecuritySettingsPageTest" duration-ms="7302" started-at="2020-04-14T13:14:04 IST" finished-at="2020-04-14T13:14:12 IST">
+        <test-method status="PASS" signature="SecuritySettingsPageTest()[pri:8, instance:Package.ClickAndBoom_Administration@6ddf90b0]" name="SecuritySettingsPageTest" duration-ms="6284" started-at="2020-04-27T13:19:27 IST" finished-at="2020-04-27T13:19:34 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SecuritySettingsPageTest -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Package.ClickAndBoom_Administration@6ddf90b0]" name="getResult" is-config="true" duration-ms="391" started-at="2020-04-14T13:14:12 IST" finished-at="2020-04-14T13:14:12 IST">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Package.ClickAndBoom_Administration@6ddf90b0]" name="getResult" is-config="true" duration-ms="360" started-at="2020-04-27T13:19:34 IST" finished-at="2020-04-27T13:19:34 IST">
           <params>
             <param index="0">
               <value>
@@ -131,7 +131,67 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="endtest()[pri:0, instance:Package.ClickAndBoom_Administration@6ddf90b0]" name="endtest" is-config="true" duration-ms="470" started-at="2020-04-14T13:14:12 IST" finished-at="2020-04-14T13:14:13 IST">
+        <test-method status="PASS" signature="AssetEncryptionPageTest()[pri:9, instance:Package.ClickAndBoom_Administration@6ddf90b0]" name="AssetEncryptionPageTest" duration-ms="6287" started-at="2020-04-27T13:19:34 IST" finished-at="2020-04-27T13:19:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AssetEncryptionPageTest -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Package.ClickAndBoom_Administration@6ddf90b0]" name="getResult" is-config="true" duration-ms="400" started-at="2020-04-27T13:19:40 IST" finished-at="2020-04-27T13:19:41 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AssetEncryptionPageTest status=SUCCESS method=ClickAndBoom_Administration.AssetEncryptionPageTest()[pri:9, instance:Package.ClickAndBoom_Administration@6ddf90b0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="FlightFollowingSettingsPageTest()[pri:10, instance:Package.ClickAndBoom_Administration@6ddf90b0]" name="FlightFollowingSettingsPageTest" duration-ms="6265" started-at="2020-04-27T13:19:41 IST" finished-at="2020-04-27T13:19:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlightFollowingSettingsPageTest -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Package.ClickAndBoom_Administration@6ddf90b0]" name="getResult" is-config="true" duration-ms="421" started-at="2020-04-27T13:19:47 IST" finished-at="2020-04-27T13:19:47 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=FlightFollowingSettingsPageTest status=SUCCESS method=ClickAndBoom_Administration.FlightFollowingSettingsPageTest()[pri:10, instance:Package.ClickAndBoom_Administration@6ddf90b0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="VoiceMessagingConfigurationPageTest()[pri:11, instance:Package.ClickAndBoom_Administration@6ddf90b0]" name="VoiceMessagingConfigurationPageTest" duration-ms="6167" started-at="2020-04-27T13:19:47 IST" finished-at="2020-04-27T13:19:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VoiceMessagingConfigurationPageTest -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Package.ClickAndBoom_Administration@6ddf90b0]" name="getResult" is-config="true" duration-ms="519" started-at="2020-04-27T13:19:54 IST" finished-at="2020-04-27T13:19:54 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VoiceMessagingConfigurationPageTest status=SUCCESS method=ClickAndBoom_Administration.VoiceMessagingConfigurationPageTest()[pri:11, instance:Package.ClickAndBoom_Administration@6ddf90b0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="HodNotificationPageTest()[pri:12, instance:Package.ClickAndBoom_Administration@6ddf90b0]" name="HodNotificationPageTest" duration-ms="6125" started-at="2020-04-27T13:19:54 IST" finished-at="2020-04-27T13:20:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HodNotificationPageTest -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Package.ClickAndBoom_Administration@6ddf90b0]" name="getResult" is-config="true" duration-ms="377" started-at="2020-04-27T13:20:00 IST" finished-at="2020-04-27T13:20:01 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=HodNotificationPageTest status=SUCCESS method=ClickAndBoom_Administration.HodNotificationPageTest()[pri:12, instance:Package.ClickAndBoom_Administration@6ddf90b0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="endtest()[pri:0, instance:Package.ClickAndBoom_Administration@6ddf90b0]" name="endtest" is-config="true" duration-ms="575" started-at="2020-04-27T13:20:01 IST" finished-at="2020-04-27T13:20:01 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endtest -->

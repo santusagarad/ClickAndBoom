@@ -137,4 +137,81 @@ public class ClickAndBoom_Administration  extends ClickAndBoom_Base {
 
 		Thread.sleep(2000);
 	}
+	
+	@Test(priority=9)
+	public void AssetEncryptionPageTest() throws Exception{
+		logger = extent.startTest("AssetEncryptionPageTest");
+		driver.findElement(By.xpath("//*[@id=\"nav\"]/nav/span/a[2]")).click();
+		driver.findElement(By.id("ctl00_MainContentPlaceHolder_adminControl_skyWizard_SideBarContainer_SideBarList_ctl09_SideBarButton")).click();
+
+		Thread.sleep(3000);
+		String title = driver.getTitle();
+		Assert.assertEquals(title,"Asset Encryption");
+		logger.log(LogStatus.PASS, "AssetEncryptionPage Loaded properly");
+		//*[@id="nav"]/nav/span/a[2]
+
+		Thread.sleep(2000);
+	}
+	@Test(priority=10)
+	public void FlightFollowingSettingsPageTest() throws Exception{
+		logger = extent.startTest("FlightFollowingSettingsPageTest");
+		driver.findElement(By.xpath("//*[@id=\"nav\"]/nav/span/a[2]")).click();
+		driver.findElement(By.id("ctl00_MainContentPlaceHolder_adminControl_skyWizard_SideBarContainer_SideBarList_ctl10_SideBarButton")).click();
+
+		Thread.sleep(3000);
+		String title = driver.getTitle();
+		Assert.assertEquals(title,"Flight Following Settings");
+		logger.log(LogStatus.PASS, "FlightFollowingSettingsPage Loaded properly");
+		//*[@id="nav"]/nav/span/a[2]
+
+		Thread.sleep(2000);
+	}
+	@Test(priority=11)
+	public void VoiceMessagingConfigurationPageTest() throws Exception{
+		logger = extent.startTest("VoiceMessagingConfigurationPageTest");
+		driver.findElement(By.xpath("//*[@id=\"nav\"]/nav/span/a[2]")).click();
+		driver.findElement(By.id("ctl00_MainContentPlaceHolder_adminControl_skyWizard_SideBarContainer_SideBarList_ctl11_SideBarButton")).click();
+
+		Thread.sleep(3000);
+		String title = driver.getTitle();
+		Assert.assertEquals(title,"Voice Messaging Configuration");
+		logger.log(LogStatus.PASS, "VoiceMessagingConfigurationPage Loaded properly");
+		//*[@id="nav"]/nav/span/a[2]
+
+		Thread.sleep(2000);
+	}
+	@Test(priority=12)
+	public void HodNotificationPageTest() throws Exception{
+		logger = extent.startTest("HodNotificationPageTest");
+		driver.findElement(By.xpath("//*[@id=\"nav\"]/nav/span/a[2]")).click();
+		driver.findElement(By.id("ctl00_MainContentPlaceHolder_adminControl_skyWizard_SideBarContainer_SideBarList_ctl12_SideBarButton")).click();
+
+		Thread.sleep(3000);
+		String title = driver.getTitle();
+		Assert.assertEquals(title,"History-On-Demand Notifications Configuration");
+		logger.log(LogStatus.PASS, "HodNotificationPage Loaded properly");
+		//*[@id="nav"]/nav/span/a[2]
+
+		Thread.sleep(2000);
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 }
